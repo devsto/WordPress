@@ -48,7 +48,7 @@ function replace_howdy( $wp_admin_bar ) {
 add_filter( 'admin_bar_menu', 'replace_howdy',25 );
 
 function remove_footer_admin () {
-  echo '<a href="http://www.wordpress.org" target="_blank">WordPress</a> modified by <a href="http://www.upwardmedia.co.uk" target="_blank">Upward Media</a>';
+  echo '<a href="http://www.wordpress.org" target="_blank">WordPress</a> modified by devsto';
 }
 add_filter('admin_footer_text', 'remove_footer_admin');
 
